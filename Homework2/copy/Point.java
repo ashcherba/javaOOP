@@ -30,11 +30,12 @@ public class Point{
 		return y;
 	}
 	
+        @Override
 	public String toString() {
 		return "Point: {" + " x=" + this.x + ", y=" + this.y + "}";
 	}
 	
-    public static double calculationDistance(Point a, Point b){
-        return Math.sqrt((a.x-b.x)*(a.x-b.x)+(a.y-b.y)*(a.y-b.y));
-    }
+	public static double calculationDistance(Point a, Point b){
+		return Math.sqrt((a.x-b.x)*(a.x-b.x)+(a.y-b.y)*(a.y-b.y));
+	}
 }
