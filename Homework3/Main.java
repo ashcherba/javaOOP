@@ -5,15 +5,15 @@ public class Main {
 	public static void main(String[] args) throws MyFirstException {
 
 		Student st1 = new Student("Vasya","Volkov",24, "KPI", 6);
-		Student st2 = new Student("VaLya","Volkova",20, "KPI", 3);
-		Student st3 = new Student("VaLya","Volk",20, "KPI", 3);
-		Student st4 = new Student("VaLya","Vol",20, "KPI", 3);
-		Student st5 = new Student("VaLya","Vinnyk",20, "KPI", 3);
-		Student st6 = new Student("VaLya","Vilnyk",20, "KPI", 3);
-		Student st7 = new Student("VaLya","Vinnyks",20, "KPI", 3);
-		Student st8 = new Student("VaLya","Vint",20, "KPI", 3);
-		Student st9 = new Student("VaLya","Vintyk",20, "KPI", 3);
-		Student st10 = new Student("VaLya","Vintyks",20, "KPI", 3);
+		Student st2 = new Student("Aya","Volkova",20, "KPI", 3);
+		Student st3 = new Student("Baya","Volk",20, "KPI", 3);
+		Student st4 = new Student("Zaya","Vol",20, "KPI", 3);
+		Student st5 = new Student("Galya","Vinnyk",20, "KPI", 3);
+		Student st6 = new Student("Nadya","Vilnyk",20, "KPI", 3);
+		Student st7 = new Student("Radya","Vinnyks",20, "KPI", 3);
+		Student st8 = new Student("Zadya","Vint",20, "KPI", 3);
+		Student st9 = new Student("Vadya","Vintyk",20, "KPI", 3);
+		Student st10 = new Student("Gradya","Vintyks",20, "KPI", 3);
 		
 		Group group = new Group("first");
 		
