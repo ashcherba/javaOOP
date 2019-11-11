@@ -37,7 +37,7 @@ public class Ships implements Runnable {
 		
 			int counter = 0;
 			for (int i = 0; i < numberOfBoxes; i++) {
-				System.out.println("Need to load " + (i + 1) + " boxes from " + name);
+				System.out.println("Left to upload " + (i + 1) + " boxes from " + name);
 				counter++;
 				try {
 					Thread.currentThread().sleep(500);
